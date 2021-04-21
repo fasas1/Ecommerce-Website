@@ -163,3 +163,23 @@ small{
 }
 
 
+/******* Brands  ***/
+
+.brands{
+    margin:100px auto;
+}
+
+.col-5 {
+    width:160px;
+}
+
+.col-5 img{
+     width: 100%;
+     filter:grayscale(100%) ;
+     cursor:pointer;
+}
+
+.col-5 img:hover{
+    filter: grayscale(0);
+}
+
