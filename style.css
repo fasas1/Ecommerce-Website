@@ -201,7 +201,7 @@ small{
 }
 
 .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
-      min-width: 230px;
+      min-width: 250px;
       margin-bottom: 20px;
 }
 
@@ -226,4 +226,51 @@ small{
 
 .footer ul{
     list-style: none;
+}
+
+.app-logo{
+    margin-top: 20px;
+}
+
+.app-logo img{
+    width:140px;
+}
+
+.footer p {
+   margin-top: 20px; 
+   text-align: center;
+}
+
+.menu-icon{
+     width:28px;
+     margin-left: 20px;
+     display: none;
+}
+
+/****   media query for menu ****/
+
+@media only screen and (max-width:800px){
+      nav ul{
+          position: absolute;
+          top: 70px;
+          left:0;
+          background: #333;
+          width: 100%;
+          overflow: hidden;
+          min-height: 40px;
+          transition: max-height 0.5s;
+      }
+      nav ul li{
+          display: block;
+          margin-right: 50px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+      }
+      nav ul li a{
+          color: white;
+      }
+      .menu-icon{
+          display: block;
+          cursor: pointer;
+      }
 }
