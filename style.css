@@ -343,7 +343,7 @@ select:focus{
 }
 
 .single-product h4{
-    margin: 20px 0;
+    margin: 21px 0;
     font-size: 22px;
     font-weight: bold;
 }
@@ -365,4 +365,9 @@ select:focus{
 
 input:focus{
      outline:none ;
+}
+
+.single-product .fa{
+      color:#ff523b;
+      margin-left: 10px;
 }
